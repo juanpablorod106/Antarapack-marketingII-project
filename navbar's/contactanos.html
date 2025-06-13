@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antarapack</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="icon" href="../images/iSOTIPO.png">
 </head>
+
 <body>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Antarapack</a>
+    <a class="navbar-brand" href="../index.html">Antarapack</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">SOMOS ANTARAPACK</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link active" aria-current="page" href="./somos.html">SOMOS ANTARAPACK</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Catálogo</a>
@@ -32,43 +32,42 @@
   </div>
 </nav>
 
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../images/1899-773-artguru.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Nosotros Antarapack</h1>
-      </div>
-    </div>
-</div>
-
-<h1 class="messi"></h1>
 <h1></h1>
 
-<h1 id="main-title" class="text-center">Especialistas en plásticos convencionales</h1>
-
-<div class="clearfix">
- <div class="container mt-5">
-        <div class="clearfix"> <!-- Contenedor clearfix para manejar el float -->
-            <img src="../images/empaques-varios-1.jpg" alt="Imagen de ejemplo" 
-                 class="img-fluid floated-img float-start rounded">
-            
-            <p>El modelo de negocio de AntaraPack se centra en la introducción y liderazgo de una
-               solución de embalaje innovadora y sostenible en el mercado internacional, donde
-               actualmente no existe una oferta consolidada de biopolímeros.</p>
-            
-            <p>Nuestro propósito es ofrecer un producto de alta calidad que no solo compita con los plásticos
-               convencionales, sino que los sustituya progresivamente para mitigar el impacto
-               ambiental creciente del consumo de plásticos.</p>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../images/wallpaper1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Nosotros Antarapack</h1>
+          </div>
         </div>
     </div>
+
+    <section class="contact">
+        <div class="container">
+            <h2>CONTACTANOS</h2>
+            <p>En Antarapack, tu aliado en soluciones de embalaje sostenible, estamos listos para atenderte.</p>
+            <a href="https://wa.me/584246668736" class="btn">WhatsApp</a>
+            <a href="mailto:antarapack@gmail.com" class="btn btn-outline">Correo Electrónico</a>
+            <a href="tel:+58 424-6668736" class="btn">Llamar Ahora</a>
+            <p>💡 ¿Necesitas una cotización urgente o muestras de materiales? ¡El equipo Antarapack responderá en menos de 24 horas!</p>
+        </div>
+    </section>
+    
+<div class="clearfix">
+    <div class="container mt-5">
+        <div class="clearfix"> <!-- Contenedor clearfix para manejar el float -->
+            <img src="../images/ISOTIPO 1.jpg" alt="Imagen de ejemplo" 
+                 class="img-fluid floated-img float-start rounded">
+                 <p>"Nuestra misión en AntaraPack es proporcionar soluciones de embalaje ecológicas e innovadoras que protejan los productos, el planeta y las generaciones futuras. Lo que plantamos hoy, otros lo cosecharán mañana. La naturaleza no tiene espacio para los residuos ni tampoco para la basura, por lo cual nos comprometemos a utilizar materiales biodegradables, procesos eficientes y prácticas éticas para reducir elimpacto ambiental y fomentar una economía circular, asegurando que cada paquete contribuya a un mundo más verde."</p>
+                </div>
+    </div>
+</div>  
 <style>
-        .messi{
-            background-color: #f2f2f2;
-        }
         .feature-card {
             padding: 2rem;
             margin-bottom: 2rem;
@@ -206,32 +205,118 @@
             color: #000;
             text-decoration: underline;
         }
+        /* Container de contactanos */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Sección principal */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #593932;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Lista de características */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .feature-item {
+            background-color: #593932;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            text-align: center;
+        }
+        
+        .feature-item::before {
+            content: "✔";
+            color: #2c8a58;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        /* Separador */
+        .divider {
+            border-top: 2px solid #2c8a58;
+            margin: 50px auto;
+            width: 80%;
+        }
+        
+        /* Sección de contacto */
+        .contact {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .contact h2 {
+            font-size: 2rem;
+            color: #2c8a58;
+            margin-bottom: 30px;
+        }
+        
+        /* Botones */
+        .btn {
+            display: inline-block;
+            background-color: #2c8a58;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn:hover {
+            background-color: #1f6a44;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid #2c8a58;
+            color: #2c8a58;
+        }
+        
+        .btn-outline:hover {
+            background-color: #593932;
+            color: #f2f2f2;
+        }
     </style>
-
-<h1 id="main-title" class="text-center">Galería de Productos</h1>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4 col-sm-6 col-12 img-container">
-            <img src="../images/JABON.jpg" alt="Description of image 1">
-        </div>
-        <div class="col-md-4 col-sm-6 col-12 img-container">
-            <img src="../images/CAKE.jpg" alt="Description of image 2">
-        </div>
-        <div class="col-md-4 col-sm-6 col-12 img-container">
-            <img src="../images/CAKE-2.jpg" alt="Description of image 3">
-        </div>
-        <div class="col-md-4 col-sm-6 col-12 img-container">
-            <img src="../images/CAJA.jpg" alt="Description of image 4">
-        </div>
-        <div class="col-md-4 col-sm-6 col-12 img-container">
-            <img src="../images/BOTELLAS.jpg" alt="Description of image 5">
-        </div>
-        <div class="col-md-4 col-sm-6 col-12 img-container">
-            <img src="../images/BOLSAS-1.jpg" alt="Description of image 6">
-        </div>
-    </div>
-</div>
 
  <footer class="custom-footer">
         <div class="container">
@@ -243,7 +328,7 @@
                 
                 <!-- Iconos sociales en el centro -->
                 <div class="col-md-4 text-center mb-3 mb-md-0">
-                    <a href="https://wa.me/04246668736" target="_blank" class="social-icon">
+                    <a href="https://wa.me/584246668736" target="_blank" class="social-icon">
                         <img src="../images/whatsapp.svg" alt="WhatsApp">
                     </a>
                     <a href="https://www.instagram.com/antarapack.ve/" target="_blank" class="social-icon">
@@ -260,7 +345,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
 
     <script src="../js/bootstrap.min.js"></script>
 </body>

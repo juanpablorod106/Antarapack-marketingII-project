@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antarapack</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="icon" href="../images/iSOTIPO.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/navbar-picture.png" alt="Logo ANTARAPACK" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SOMOS ANTARAPACK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CATÁLOGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../navbar's/contactanos.html">CONTACTANOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1>.</h1>
+
+<div class="packaging-container">
+        <!-- Imagen a la izquierda -->
+        <img src="../images/Empaques-que-integran.jpg" alt="Empaques que integran funcionalidad y diseño" class="packaging-image">
+        
+        <!-- Contenido de texto a la derecha -->
+        <div class="packaging-content">
+            <h1>Empaques Que Integran La Funcionalidad Y Diseño</h1>
+            
+            <p class="intro-text">¿Necesitas soluciones rápidas, sin impresión, de empaques genéricos? Contamos con cerca de un centenar de referencias a tu disposición.</p>
+            
+            <ul class="features-list">
+                <li><strong>Genéticos para Alimentos</strong></li>
+                <li><strong>Genéticos para E-commerce</strong></li>
+                <li><strong>Genéticos para Fast Food</strong></li>
+                <li><strong>Genéticos para Domicilios</strong></li>
+            </ul>
+            
+            <hr class="divider">
+            
+            <a href="../navbar's/contactanos.html" class="contact-button">CONTACTANOS</a>
+        </div>
+    </div>
+
+
+<style>
+        /* Empaques Funcionales - INICIO */
+
+        body {
+            font-family: 'Bebas Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .packaging-container {
+            display: flex;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .packaging-image {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .packaging-content {
+            flex: 1;
+            text-align: left;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        
+        .intro-text {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        .features-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+            text-align: left;
+        }
+        
+        .features-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+            font-size: 16px;
+        }
+        
+        .features-list li:before {
+            content: "✔";
+            color: #27ae60;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        .features-list li strong {
+            color: #2c3e50;
+        }
+        
+        .divider {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 30px 0;
+            width: 100%;
+        }
+        
+        .contact-button {
+            display: inline-block;
+            background-color: #593932;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            text-transform: uppercase;
+        }
+        
+        .contact-button:hover {
+            background-color: #2c8a58;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            .packaging-container {
+                flex-direction: column;
+                padding: 15px;
+            }
+            
+            .packaging-image {
+                min-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Empaques Funcionales - FIN */
+
+        .text-align-justify{
+            text-align: justify;
+        }
+        /* Fuente en los titulos */
+        body {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .navbar-brand {
+            font-weight: 700; /* Negrita para "ANTARAPACK" */
+            font-size: 24px; /* Ajusta el tamaño según necesites */
+        }
+        .navbar-subtitle {
+            font-weight: 400; /* Normal para "Empaques Biodegradables" */
+            font-size: 16px;
+        }
+        .feature-card {
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            position: relative;
+            margin-top: 80px; /* Espacio para la imagen */
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .feature-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            position: absolute;
+            top: -60px; /* Mitad de la imagen fuera del card */
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            border-radius: 50%;
+            padding: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 5px solid #f8f9fa;
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover img {
+            transform: translateX(-50%) scale(1.1);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .feature-title {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .feature-text {
+            font-style: 'Bebas Neue', sans-serif;
+            color: #555;
+        }
+        #main-title {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            font-weight: 'Montserrat';
+            color: #593932;
+        }
+        .section-ecopack {
+            padding: 4rem 0;
+            background-color: white;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .floated-img {
+            margin: 0 1rem 1rem 0;
+            max-width: 200px;
+        }
+        @media (max-width: 576px) {
+            .floated-img {
+                float: none !important;
+                display: block;
+                margin: 0 auto 1rem;
+                max-width: 100%;
+            }
+        }
+        /* Imagenes demostrativas */
+        .img-container {
+            margin-bottom: 20px;
+            text-align: center;
+            overflow: hidden; /* Importante para contener el zoom */
+            position: relative;
+            border-radius: 8px; /* Bordes del contenedor */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block; /* Para que el contenedor se ajuste a la imagen */
+            background: white; /* Fondo para los bordes */
+            padding: 5px; /* Espacio para el borde visual */
+        }
+        
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px; /* Un poco menos que el contenedor para el efecto de borde */
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            display: block;
+            transform-origin: center center;
+            border: 1px solid #eee; /* Borde sutil */
+        }
+        
+        .img-container:hover img {
+            transform: scale(1.05); /* Zoom del 5% */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        
+        .img-container:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        /* Versión alternativa con efecto de elevación + zoom */
+        .img-container.advanced {
+            transition: all 0.3s ease;
+        }
+        
+        .img-container.advanced:hover {
+            transform: translateY(-5px);
+        }
+        /*Footer para la pagina web*/
+        .custom-footer {
+            background-color: #f2f2f2;
+            padding: 25px 0;
+            border-top: 1px solid #e9ecef;
+        }
+        .social-icon {
+            margin: 0 12px;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+        .social-icon img {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+        .footer-email {
+            color: #495057;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer-email:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+        .titles {
+            font-family: 'Bebas Neue', sans-serif; 
+            text-align: center;
+        }
+    </style>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/GENERICOS-1.jpg" alt="Description of image 1">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/GENERICOS-2.jpg" alt="Description of image 2">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/GENERICOS-3.jpg" alt="Description of image 3">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/GENERICOS-4.jpg" alt="Description of image 4">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/GENERICOS-5.jpg" alt="Description of image 5">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/GENERICOS-6.jpg" alt="Description of image 6">
+        </div>
+    </div>
+</div>
+
+<div class="packaging-container">
+        <!-- Imagen a la izquierda -->
+        <img src="../images/EZ1000606569.png" alt="Empaques que integran funcionalidad y diseño" class="packaging-image">
+        
+        <!-- Contenido de texto a la derecha -->
+        <div class="packaging-content">
+            <h1>Creamos Empaques únicos, que destacan tus productos y diferencian tu Marca</h1>
+            
+            <p class="intro-text">En Ecopack personalizamos tus empaques y demás elementos de comunicación. Te asesoramos en la elección de la mejor opción para tus cajas, bolsas o etiquetas, de acuerdo al producto, exhibición y distribución. También te asesoramos en el diseño de las mismas.</p>
+            <p class="intro-text">Imprimimos sobre distintos materiales (cartulinas, cartones y/o papeles) y con diferentes acabados de acuerdo a las necesidades de comunicación de tu marca</p>
+            
+            <ul class="features-list">
+                <li><strong>Diseños personalizados</strong></li>
+                <li><strong>Diversidad en materiales</strong></li>
+                <li><strong>Diversidad en Acabados</strong></li>
+                <li><strong>Asesoría Técnica y de Comunicación</strong></li>
+            </ul>
+            
+            <hr class="divider">
+            
+            <a href="../navbar's/contactanos.html" class="contact-button">CONTACTANOS</a>
+        </div>
+    </div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/EZ1000606566.png" alt="Description of image 1">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/EZ1000606567.png" alt="Description of image 2">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/EZ1000606568.png" alt="Description of image 3">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/CAJA.jpg" alt="Description of image 4">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/BOTELLAS.jpg" alt="Description of image 5">
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 img-container">
+            <img src="../images/CAKE-2.jpg" alt="Description of image 6">
+        </div>
+    </div>
+</div>
+
+ <footer class="custom-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Derechos de autor a la izquierda -->
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">© 2025, Antarapack. All rights reserved.</p>
+                </div>
+                
+                <!-- Iconos sociales en el centro -->
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <a href="https://wa.me/584246668736" target="_blank" class="social-icon">
+                        <img src="../images/whatsapp.svg" alt="WhatsApp">
+                    </a>
+                    <a href="https://www.instagram.com/antarapack.ve/" target="_blank" class="social-icon">
+                        <img src="../images/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://linkedin.com/tuperfil" target="_blank" class="social-icon">
+                        <img src="../images/linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
+                
+                <!-- Correo electrónico a la derecha -->
+                <div class="col-md-4 text-center text-md-end">
+                    <a href="mailto:antarapack@gmail.com" class="email-link">antarapack@gmail.com</a>
+                </div>
+            </div>
+        </div>
+</footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
